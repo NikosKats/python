@@ -30,7 +30,8 @@ class person(object):
   def getChildren(self):
     return self.children
       
-      
+
+ 
 
 al = person("al pacino",72)   
       
@@ -41,11 +42,7 @@ al.addChild("george",14)
 
 
 al.listChildren()
+
+print(vars(al))
       
-      
-      
-      
-      
-      
-      
-      
+allChilds = [al.getChildren]
